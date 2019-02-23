@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1200px) { }
+
+
+@media only screen and (max-width: 1023px) { }
+
+
+@media only screen and (max-width: 767px) {
+
+
+    .myprofile { height: 75vh;}
+    
+    .prof-img {
+        height: 150px;
+        border-radius: 50%;
+        margin-right: 5%;
+      
+        vertical-align: middle;
+        margin-bottom: 40px;
+    }
+    .prof-img li::after {
+        clear:both;
+       
+       }
+       .myprofile ul{
+           line-height: 50%;
+           margin:0;
+           clear:both;
+              
+           align-items: center;
+           
+          }
+
+}
+@media only screen and (max-width: 480px) { 
+
+    .myprofile {
+
+margin:0;      
+
+    }
+
+.prof-img {
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 5%;
+   
+    vertical-align: middle;
+    margin-bottom: 40px;
+}
+dt {
+     display:block;
+     text-align: center;
+       
+    
+ }
+
+ .contact-each {
+ line-break: inherit;
+
+ }
+}
