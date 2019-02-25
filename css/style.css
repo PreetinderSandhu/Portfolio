@@ -24,7 +24,7 @@ body {
 /* ----------------------------------------------- */
 
 header {
-    /* background-color: #868383; */
+    background-color: #90b6e7;
     background-image: url(img\backblue.gif);
     backface-visibility: visible;
     height: 75vh;    
@@ -47,6 +47,7 @@ text-align-last: center;
 .btn {
 
     text-decoration: none;
+    background-color: #000000;
 }
 .main-nav li a:link,
 .main-nav li a:visited {
@@ -74,6 +75,7 @@ text-align: center;
 margin-bottom: 25px;
 margin-top: -20%;
 background-color: #fff;
+border-style: 
 
 border-top-right-radius:2%;
 border-top-left-radius:2%;
@@ -93,11 +95,16 @@ border-top-left-radius:2%;
     margin-left: 5px;
     margin-top:10px;
     font-size: 80%;
-   font-weight: 300px;
+   font-weight: 600px;
    margin-bottom:10px; 
 }
- .contact-info li::after:first-child {
+ .contact-info li {
  margin-bottom: 15px;
+ text-align: center;
+ font-size: 22x;
+ font-weight: 400;
+ word-break: normal;
+ 
  }
 
 li .contact-each {
@@ -138,6 +145,7 @@ background-color: rgb(150, 104, 40);
 .myprofile {
  line-height: 100%;
  margin: 0 60px;
+ font-weight: 600;
  
  align-items: center;
 
@@ -156,13 +164,11 @@ background-color: rgb(150, 104, 40);
     margin: auto 10px;
   }
 
-/* .contact-each {
+.work-x {
+background-color: #f3f3f3;
+}
 
-    line-height: 20%;
-    margin-top: -20%;
-    margin-bottom: 5px;
-    white-space: initial;
- } */
+
 
 h3 {
     font-size: 180%;
@@ -170,12 +176,13 @@ h3 {
     text-align: center;
     margin-bottom: 100px;
     letter-spacing: 1px;
+    text-transform: uppercase;
     }
 
 h3:after {
     display: block;
     height: 2px;
-    background-color: #e67e22;
+    background-color:  #90b6e7;
     content: " ";
     width: 150px;
     margin: 0 auto;
@@ -186,6 +193,36 @@ h5 {
 
     font-size: 26px
 }
+ h6 {
+ font-style: bold;
+ margin-bottom: 0px;
+
+ }
+small {
+margin-top:0px;
+padding-top: 0px;
+font-size: 70%;
+font-weight: 300;
+
+}
+ 
+.exp p {
+
+    margin-top:2%;
+    word-spacing: 2px;
+    padding-bottom: 50px;
+   
+}
+.exp p:last-child {
+   
+}
+
+.exp {
+
+ margin: 20px;
+}
+
+
  .container {
 
     width: 100%;
@@ -220,24 +257,36 @@ footer {
 }
 
 /* ----------------------------------------------- */
-/* skill Section */
+/* table style */
 /* -----------------------------------------------*/
+table {
+background-color: #f3f3f3;
 
-dl {
 
-line-height: 150%;
-  font-size: .8rem;
 }
-  
- dl dd {
+tr td {
+    margin-bottom: 0;
+    padding: 10px;
+}
 
-margin-left: 20%;
+ .data-edu li {
+
+     margin: 15px 0;
+     padding: 15px 0;
+    
+ }
+ .data-edu {
+    text-indent: 40px;
+    background-color: #f3f3f3;
+ }
+
+ .icon {
+ margin-right: 20px;
+ margin-top:20px;
 
  }
 
- dt {
+  tbody  tr:first-child {
+/* font-style:italic; */
 
-    background-color: #e67e22;
-    width: 20%;
-    
  }
