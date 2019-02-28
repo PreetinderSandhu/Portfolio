@@ -5,74 +5,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css\bootstrap-grid.css">
-    <link rel="stylesheet" type="text/css" href="css\bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css\normalize.css">
-    <link rel="stylesheet" type="text/css" href="css\animate.css">
-    <link rel="stylesheet" type="text/css" href="css\query.css">
-    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/query.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
     <title>Document</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
     <header>
 
-        <nav>
-            <div class="main-nav">
-                <ul>
+        <nav class=" navbar-expand-md navbar-dark  sticky-top navbar-browser">
 
-                    <li><a href="#skills">My Skills</a></li>
-                    <li><a href="#prof">Work Experience</a></li>
-                    <li><a href="#education">Education</a></li>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- <div class="main-nav"> -->
+            <div class=" nav-col collapse navbar-collapse" id="collapse_target">
+                <ul class="navbar-nav mx-auto ">
 
-                    <li>
-                        <button class="btn btn-primary">
-                            <a href="img\Preetinder Sandhu.docx" download>Download CV</a>
-                        </button>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#skills">My Skills</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#prof">Work Experience</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-success" href="img/PreetinderSandhu.docx" download>Download CV</a>
                     </li>
                 </ul>
             </div>
+        
         </nav>
 
     </header>
     <div class="container">
         <section class="profile">
-            <div class="row">
+            <div id="profile-1" class="row">
                 <div class="col-3 col-md-3"></div>
                 <div class="col col-6 col-md-6">
                     <div class="myprofile">
                         <ul>
-                            <li><img class="prof-img" src="img/Profile-img.jpg" alt="profile-img"></li>
+                            <li><img class="prof-img " src="img/Profile-img.jpg" alt="profile-img"></li>
                             <li>
                                 <h5>Preetinder Sandhu</h5>
                             </li>
                             <li>Developer</li>
-                            <div class="contact-info">
+
+
+                            
+
+                                <button><i class="fa fa-phone-square"></i></button>
+                                <button><i class="fa fa-send"></i></button>
                                 <li><strong>Contact:</strong> </li>
-                                
-                                <li><ion-icon name="call"></ion-icon><span class="contact-each">647-857-3631</span></li>
+
+                                <li>
+                                    <span class="contact-each">647-857-3631</span>
+                                </li>
                                 <li><strong>Email:</strong> </li>
-                                <li><ion-icon name="mail"></ion-icon><a href="mailto:>Preetinder.Sandhu@outlook.com"><span class="contact-each">Preetinder.Sandhu@outlook.com</span></a></li>
-                            </div>
+                                <li>
+                                    <a href="mailto:>Preetinder.Sandhu@outlook.com"><span class="contact-each">Preetinder.Sandhu@outlook.com</span></a>
+                                </li>
+                            
                         </ul>
                     </div>
-
-
-
-
                 </div>
                 <div class="col-3 col-md-3"></div>
             </div>
         </section>
-
         <section id="skills">
             <div class="myskills js--myskill">
-
-
                 <h3 class="heading">Skills</h3>
-
-
                 <table class="table">
                     <tbody>
                         <tr>
@@ -126,13 +144,10 @@
                             <td> Methodologies:</td>
                             <td>Waterfall, Agile, V-Model</td>
                         </tr>
-
-
                     </tbody>
                 </table>
-
+                </div>
         </section>
-
         <section id="prof">
             <div class="my-prof">
                 <div class="heading-prof">
@@ -152,25 +167,11 @@
                         <h6>TD Insurance</h6>
                         <small>Sr. Quality Assurance <span>&#124;</span> April 2018-Feb 2019</small>
                         <p>
-                            The National Bank sites (BNA, BNC, and Private Banking, NBC insurance) were designed and
-                            developed using AEM (CQ5) Web Content Management System in JSP environment and managing
-                            content
-                            refers to creating, editing, archiving, publishing, collaborating on, reporting,
-                            distributing
-                            website content, data and information.
-                            The Application was developed using Agile Software Development Scrum based methods with two
-                            weeks of Sprint iterations.
-                            NBC bank is a highly diversified financial services organization. It provides a broad range
-                            of
-                            retail banking, wealth management and investment banking products and solutions. I worked
-                            on
-                            Credit Path enables commercial lenders to manage highly complex, multi-party relationships
-                            and
-                            multi-facility credit requests via a simple, intuitive user interface. With easy
-                            integration
-                            into core banking systems, this enterprise-class solution provides the analytical and
-                            operational tools essential to manage the data needed for application capture, covenant
-                            tracking and collateral management – as well a</p>
+                            Td Insurance is the insurance company which deal with Home and auto Insurance for Client.I
+                            was working testing Web service and doing Automation testing in the POD. The Application
+                            was developed using Agile Software Development Scrum based methods with three
+                            weeks of Sprint iterations.We were Addition new feature to auto claim.
+                        </p>
                     </div>
                     <div class="exp">
                         <h6>National Bank Of Canada</h6>
@@ -238,9 +239,14 @@
                     <h3>Education</h3>
                 </div>
                 <div class="data-edu">
-                    <ul>
-                        <li><ion-icon name="arrow-dropright"></ion-icon>Light House Lab , Javascript Bootcamp<span>&#124;</span>2019</li>
-                        <li><ion-icon name="arrow-dropright"></ion-icon>Bachelor’s Degree in Computer Science, Punjab, India<span>&#124;</span>2006-2010</li> 
+                    <ul class="only">
+                        <li>
+                            <ion-icon name="arrow-dropright"></ion-icon>Light House Lab , Javascript Bootcamp<span>&#124;</span>2019
+                        </li>
+                        <li>
+                            <ion-icon name="arrow-dropright"></ion-icon>Bachelor’s Degree in Computer Science, Punjab,
+                            India<span>&#124;</span>2006-2010
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -248,7 +254,7 @@
     </div>
     <footer>
         <div>
-            <p>Copyright &copy 2019 All rights reserved | This template is made with by Preetinder Sandhu.
+            <p>Copyright &copy; 2019 All rights reserved | This template is made with by Preetinder Sandhu.
             </p>
 
 
@@ -256,8 +262,8 @@
         </div>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="javascript\jquery.waypoints.min.js"></script>
+
+    <script src="javascript/jquery.waypoints.min.js"></script>
     <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
     <script src="javascript/script.js"></script>
 </body>

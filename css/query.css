@@ -40,10 +40,8 @@
            align-items: center;
            
           }
-          .call {
-    
-
-        }
+          
+         
 }
 @media only screen and (max-width: 480px) { 
 
@@ -52,7 +50,7 @@
 margin:0;      
 
     }
-
+    
 .prof-img {
     height: 150px;
     border-radius: 50%;

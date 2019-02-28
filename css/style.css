@@ -12,7 +12,7 @@ html,
 body {
     background-color: #fff;
     color: #555;
-    font-family: 'Abel','Lato', 'Arial', sans-serif;
+    font-family: 'Abel', 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -25,30 +25,65 @@ body {
 
 header {
     background-color: #90b6e7;
-    background-image: url(img\backblue.gif);
-    backface-visibility: visible;
-    height: 75vh;    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.329), #00000071), url(../img/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
     opacity: 1;
 }
- nav li {
+
+.navbar-browser {
+    margin-left: auto;
+    padding: 10px;
+
+
+}
+
+.work-x,
+.data-edu,
+.table {
+
+    box-shadow: -10px -1px 2px 0px #000000c2;
+    background-color: #bfd5f3;
+
+}
+
+.nav-col {
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+
+    text-align: right;
+
+}
+
+.nav-col ul {
+    background-color: #000000d2;
+    text-align: center;
+}
+
+/* nav li { 
 display:inline-block;
 padding:10px;
 margin-left: 20px;
- }
- nav {
-     margin:auto;   
-     z-index: 5 ; 
- }
+}
 
- .main-nav {
-text-align-last: center;
+ nav { 
+margin:auto;
+z-index: 5;
+}*/
 
- }
+.main-nav {
+    text-align-last: center;
+
+}
+
 .btn {
 
     text-decoration: none;
     background-color: #000000;
 }
+
 .main-nav li a:link,
 .main-nav li a:visited {
     padding: 8px 0;
@@ -65,56 +100,56 @@ text-align-last: center;
 .main-nav li a:active {
     border-bottom: 2px solid #ffffff;
 }
-.main-nav li .btn a:hover, 
+
+.main-nav li .btn a:hover,
 .main-nav li .btn a:active {
     border-bottom: none;
 }
 
-.col  {
-text-align: center;
-margin-bottom: 25px;
-margin-top: -20%;
-background-color: #fff;
-border-style: 
-
-border-top-right-radius:2%;
-border-top-left-radius:2%;
-
-
-
+.col {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: -20%;
+    background-color: #fff;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
 }
+
 .contact-info {
-    margin-top:50px; 
+    margin-top: 50px;
 
 }
- .contact-info li {
+
+.contact-info li {
 
     text-align: left;
     line-height: 20%;
     color: #000000;
     margin-left: 5px;
-    margin-top:10px;
+    margin-top: 10px;
     font-size: 80%;
-   font-weight: 600px;
-   margin-bottom:10px; 
+    font-weight: 600;
+    margin-bottom: 10px;
 }
- .contact-info li {
- margin-bottom: 15px;
- text-align: center;
- font-size: 22x;
- font-weight: 400;
- word-break: normal;
- 
- }
+
+.contact-info li {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    word-break: normal;
+
+}
 
 li .contact-each {
 
     line-height: 10%;
-    display:inline-block;
+    display: inline-block;
     margin-bottom: 15px;
     padding: 5px;
-    
+
 }
+
 /* ----------------------------------------------- */
 /* BASIC Section */
 /* ----------------------------------------------- */
@@ -122,33 +157,39 @@ li .contact-each {
 
 section {
     padding: 80px 0;
-   
-    
-   
 }
+
 section ul {
 
     list-style-type: none;
 }
 
-.profile  {
-display: inline;
-line-height: 90%;
-background-color: rgb(150, 104, 40);
-
-
+.profile {
+    display: inline;
+    line-height: 90%;
+    background-color: rgb(150, 104, 40);
 
 }
+
+.color {
+
+    color: black;
+}
+
 /* .row {
     border-top: 1px solid #e8e8e8;
 } */
 .myprofile {
- line-height: 100%;
- margin: 0 60px;
- font-weight: 600;
- 
- align-items: center;
+    line-height: 100%;
+    margin: 0 60px;
+    font-weight: 600;
 
+    align-items: center;
+
+}
+
+#profile-1 {
+    border-bottom: 1px solid #000000;
 }
 
 .prof-img {
@@ -156,19 +197,14 @@ background-color: rgb(150, 104, 40);
     border-radius: 50%;
     margin: 20px 5% 40px 5%;
     vertical-align: middle;
-   
+
 }
+
 .contact-info span::before {
     content: "\A";
     white-space: pre;
     margin: auto 10px;
-  }
-
-.work-x {
-background-color: #f3f3f3;
 }
-
-
 
 h3 {
     font-size: 180%;
@@ -177,12 +213,12 @@ h3 {
     margin-bottom: 100px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    }
+}
 
 h3:after {
     display: block;
     height: 2px;
-    background-color:  #90b6e7;
+    background-color: #90b6e7;
     content: " ";
     width: 150px;
     margin: 0 auto;
@@ -193,41 +229,43 @@ h5 {
 
     font-size: 26px
 }
- h6 {
- font-style: bold;
- margin-bottom: 0px;
 
- }
-small {
-margin-top:0px;
-padding-top: 0px;
-font-size: 70%;
-font-weight: 300;
+h6 {
+    
+    margin-bottom: 0px;
 
 }
- 
+
+small {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 70%;
+    font-weight: 300;
+
+}
+
 .exp p {
 
-    margin-top:2%;
+    margin-top: 2%;
     word-spacing: 2px;
     padding-bottom: 50px;
-   
+
 }
-.exp p:last-child {
-   
-}
+
+.exp p:last-child {}
 
 .exp {
 
- margin: 20px;
+    margin: 20px;
 }
 
 
- .container {
+.container {
 
     width: 100%;
     margin: auto;
- }
+}
+
 /* ----------------------------------------------- */
 /* BASIC Footer */
 /* ----------------------------------------------- */
@@ -235,10 +273,10 @@ font-weight: 300;
 footer {
 
     background-color: #868383;
-     color: #fff;
-     padding-top: 20px;
+    color: #fff;
+    padding-top: 20px;
     font-size: 70%;
-    text-align: center; 
+    text-align: center;
     height: 100%;
 }
 
@@ -260,33 +298,36 @@ footer {
 /* table style */
 /* -----------------------------------------------*/
 table {
-background-color: #f3f3f3;
+    background-color: #f3f3f3;
 
 
 }
+
 tr td {
     margin-bottom: 0;
     padding: 10px;
 }
 
- .data-edu li {
+.data-edu li {
 
-     margin: 15px 0;
-     padding: 15px 0;
-    
- }
- .data-edu {
-    text-indent: 40px;
-    background-color: #f3f3f3;
- }
+    margin: 15px 0;
+    padding: 15px 0;
+    word-wrap: break-word;
 
- .icon {
- margin-right: 20px;
- margin-top:20px;
+}
 
- }
+.data-edu {
+    /* text-indent: 40px; */
+    background-color: #bfd5f3;
+}
 
-  tbody  tr:first-child {
-/* font-style:italic; */
+.icon {
+    margin-right: 20px;
+    margin-top: 20px;
 
- }
+}
+
+tbody tr:first-child {
+    /* font-style:italic; */
+
+}
