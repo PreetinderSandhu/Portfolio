@@ -45,9 +45,11 @@ header {
 .nav-col li {
     font-weight: 600;
     color: rgb(255, 255, 255);
-    text-align: right;
+    text-align: center;
 
 }
+
+
 
 .nav-col ul {
     background-color: #000000b6;
@@ -145,7 +147,7 @@ h3 {
 h3:after {
     display: block;
     height: 2px;
-    background-color:  rgb(7, 19, 51);
+    background-color:  rgba(195, 194, 194, 0.856);
     content: " ";
     width: 150px;
     margin: 0 auto;
@@ -183,6 +185,7 @@ h6:after {
 .job {
     max-width: 1400px;
     margin:40px auto 0 auto;
+      
     
       }
 
@@ -214,6 +217,11 @@ flex-basis: 40%;
 
 }
 
+.last-child--p li:last-child {
+ padding-bottom: 20px;
+
+}
+
 .color {
 
     color: black;
@@ -223,42 +231,61 @@ flex-basis: 40%;
 
 .progress--item {
     
-    border-radius: 9px;
-    height:1.3rem;
-    background-color: #f3f3f3;
-    float:left;
-
+    border-radius: 25%;
+    height:1.3rem;    
     padding-top:0;
-    margin-top:10px;
+    margin-top:0px;
+    width:80%;    
+    margin-left: 0;
     
 }
 .skill--paragraph {
-    float:left;
+    /* float:left; */
     border-radius: 20%;
-  font-size: 1.3rem;
-  font-weight: 400;
-  margin-right: 50px;
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-right: 150px;
     padding-right: 10px;
     padding-top:0;
     margin-top:0;
+    margin-bottom: 0px;
   
 }
     
+.last-child--p li {
+
+    margin-bottom: 20px;
+}
+
       .section-2 {
-    padding: 20px;
+    padding: 15px 20px 0 20px ;
     box-sizing: border-box;
     margin-bottom: 0px;
     flex-basis: 50%;
     
     }
 
+    .section-m-top{
+
+        margin-top:0;
+    }
+    
+
     .section-2 li {
         clear:both;
 
     }
-.section-2-t-margin{
+  
 
+    .last-child--p-1 li {
+        margin-bottom: 20px;
+    }
+
+    .last-child--p-1 li:last-child{
+    margin-bottom: 0px;
     margin-top:0;
+    padding-bottom: 0;
+    
 }
 
 .skills__me {
