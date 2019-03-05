@@ -1,49 +1,50 @@
 /********** Profile Contact Section**************/
 
 .contact-icons{
-box-sizing: border-box;
-margin-top:40px; 
-
-margin-left:auto;
-margin-right:auto;
-
-}
-
-@media (min-width: 800px) {
-    .contact-icons{
-    display:none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-top:40px; 
+    
+    margin-left:auto;
+    margin-right:auto;
+    
     }
-    .contact-i {
-        margin-top: 50px;         
+    
+    @media (min-width: 800px) {
+        .contact-icons{
+        display:none;
+        }
+        .contact-i {
+            margin-top: 50px;         
+        }
+    
     }
-
-}
-
-@media (max-width:799px) {
-    .contact-i { display:none; }
-    header {
-        background-image:url('../img/header-bg.jpg')
+    
+    @media (max-width:799px) {
+        .contact-i { display:none; }
+        header {
+            background-image:url('../img/header-bg.jpg')
+        }
+    
     }
-
-}
-
- .fa-style {
-font-size: 25px;
-padding: 10px;
-border-radius: 30%;
-border: 1px solid none;
-background-color: #179e0bbe;
-color: #ffffff;
-
-
-}
-
-.flex-icons {
-
-   float:left;
-   margin-left:45px;
-   padding-top:10px;
-   text-align: center;
-   
-
-}
+    
+     .fa-style {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 30%;
+    border: 1px solid none;
+    background-color: #179e0bbe;
+    color: #ffffff;
+    
+    
+    }
+    
+    .flex-icons {
+    
+       float:left;
+       margin-left:45px;
+       padding-top:10px;
+       text-align: center;
+       
+    
+    }

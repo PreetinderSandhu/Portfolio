@@ -5,7 +5,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 html,
@@ -25,6 +26,7 @@ body {
 
 header {
     background-color: #90b6e7;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.329)), to(#00000071)), url(../img/background-header.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.329), #00000071), url(../img/background-header.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -99,7 +101,9 @@ li a:active {
     margin: 0 auto;
     font-weight: 600;
     max-width: 300px;   
-    align-items: center;
+    -webkit-box-align: center;   
+        -ms-flex-align: center;   
+            align-items: center;
 
 }
 
@@ -196,24 +200,31 @@ h6:after {
 
       @media (min-width: 800px) {
         .job {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-between;               
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;               
             
               }
     
       }  
 
    .section-1:last-child {
-flex-basis: 60%;
+-ms-flex-preferred-size: 60%;
+    flex-basis: 60%;
 max-width: 100%;
 
    }   
 
   .section-1 {
 padding: 20px;
-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+        box-sizing: border-box;
 margin-bottom: 0px;
-flex-basis: 40%;
+-ms-flex-preferred-size: 40%;
+    flex-basis: 40%;
 
 }
 
@@ -259,9 +270,11 @@ flex-basis: 40%;
 
       .section-2 {
     padding: 15px 20px 0 20px ;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin-bottom: 0px;
-    flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
     
     }
 
