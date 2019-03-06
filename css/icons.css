@@ -51,8 +51,10 @@
 
     /****************** Paragraph*************/
 
-    p {
+    .no--justify {
 
         text-align: justify;
         text-justify: inter-word;
     }
+
+    
